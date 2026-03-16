@@ -1,0 +1,60 @@
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#667eea,#764ba2);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.quiz-container, .login-box{
+background:white;
+padding:25px;
+width:420px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.option{
+display:block;
+background:#f1f1f1;
+padding:10px;
+margin:8px 0;
+border-radius:6px;
+cursor:pointer;
+}
+
+.buttons{
+display:flex;
+justify-content:space-between;
+margin-top:15px;
+}
+
+button{
+padding:10px 15px;
+background:#4CAF50;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.progress{
+height:8px;
+background:#ddd;
+margin-bottom:10px;
+border-radius:6px;
+}
+
+#progressBar{
+height:8px;
+background:#4CAF50;
+width:0%;
+}
